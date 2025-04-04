@@ -1,0 +1,5 @@
+[0.007s] Invoking command in '/home/lx/projects/x1_urdf/build/x1_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /opt/cmake/cmake-3.31.6-linux-x86_64/bin/cmake --build /home/lx/projects/x1_urdf/build/x1_urdf -- -j16 -l16
+[0.022s] [0mCMake Error: The current CMakeCache.txt directory /home/lx/projects/x1_urdf/build/x1_urdf/CMakeCache.txt is different than the directory /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.027s] make: /usr/local/bin/cmake: 没有那个文件或目录
+[0.027s] make: *** [Makefile:226：cmake_check_build_system] 错误 127
+[0.029s] Invoked command in '/home/lx/projects/x1_urdf/build/x1_urdf' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /opt/cmake/cmake-3.31.6-linux-x86_64/bin/cmake --build /home/lx/projects/x1_urdf/build/x1_urdf -- -j16 -l16

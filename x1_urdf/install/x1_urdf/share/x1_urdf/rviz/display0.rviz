@@ -1,0 +1,197 @@
+WindowManager:
+  class: rviz/WindowManager
+  displays:
+    - class: rviz/RobotModel
+      name: RobotModel
+      properties:
+        Robot Description: robot_description
+        Enabled: True
+        Visuals: True
+        Collision: False
+        Alpha: 1
+        Links:
+          - base_link
+        TF Prefix: ''
+        Update Interval: 0
+        Enabled: True
+  name: RootWindow
+  properties:
+    Alpha: 1
+    Stereo: False
+    Stereo Eye Separation: 0.06
+    Stereo Focal Distance: 0.5
+    Stereo Mode: None
+    Sync: False
+    Transport Hints: 0
+    URL: class://rviz/WindowManager
+    Window Geometry:
+      X: 0
+      Y: 0
+      Width: 1280
+      Height: 960
+      Type: MainWindow
+      Window State: normal
+      Window Title: RViz
+      Window Title Modified: False
+      Window Role: RViz
+      Window Type: normal
+      Window State:
+        maximized: False
+        fullscreen: False
+        active: True
+        skip_taskbar: False
+        skip_pager: False
+        shade: False
+        sticky: False
+        urgency: False
+        iconify: False
+        above: False
+        below: False
+        sticky_all_desktops: False
+        desktop: -1
+        workspace: -1
+        skip_taskbar: False
+        skip_pager: False
+        shade: False
+        sticky: False
+        urgency: False
+        iconify: False
+        above: False
+        below: False
+    Window Transparency: 0
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Title: RViz
+    Window Title Modified: False
+    Window Role: RViz
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Transparency: 0
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Title: RViz
+    Window Title Modified: False
+    Window Role: RViz
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Transparency: 0
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Title: RViz
+    Window Title Modified: False
+    Window Role: RViz
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Transparency: 0
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Title: RViz
+    Window Title Modified: False
+    Window Role: RViz
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Transparency: 0
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Title: RViz
+    Window Title Modified: False
+    Window Role: RViz
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Transparency: 0
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Title: RViz
+    Window Title Modified: False
+    Window Role: RViz
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Transparency: 0
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Title: RViz
+    Window Title Modified: False
+    Window Role: RViz
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Transparency: 0
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Title: RViz
+    Window Title Modified: False
+    Window Role: RViz
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Transparency: 0
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Title: RViz
+    Window Title Modified: False
+    Window Role: RViz
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Transparency: 0
+    Window Type: normal
+    Window State:
+      maximized: False
+      fullscreen: False
+      active: True
+    Window Title: RViz
+    Window Title Modified: False
+    Window Role: RViz
+    Window Type: normal
+    Window

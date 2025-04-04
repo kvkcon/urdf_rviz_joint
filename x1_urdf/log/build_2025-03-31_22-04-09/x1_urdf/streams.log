@@ -1,0 +1,152 @@
+[0.013s] Invoking command in '/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher_gui:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf -DCMAKE_INSTALL_PREFIX=/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf
+[0.072s] -- The C compiler identification is GNU 9.4.0
+[0.172s] -- The CXX compiler identification is GNU 9.4.0
+[0.198s] -- Detecting C compiler ABI info
+[0.355s] -- Detecting C compiler ABI info - done
+[0.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.374s] -- Detecting C compile features
+[0.374s] -- Detecting C compile features - done
+[0.377s] -- Detecting CXX compiler ABI info
+[0.521s] -- Detecting CXX compiler ABI info - done
+[0.534s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.534s] -- Detecting CXX compile features
+[0.534s] -- Detecting CXX compile features - done
+[0.546s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.555s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.555s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.555s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.555s]   the cmake_policy command to set the policy and suppress this warning.
+[0.555s] 
+[0.555s] Call Stack (most recent call first):
+[0.555s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.555s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.555s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.556s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.556s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.556s]   CMakeLists.txt:4 (find_package)
+[0.556s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.556s] [0m
+[0.570s] -- Found PythonInterp: /opt/ros/foxy/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[0.570s] -- Using PYTHON_EXECUTABLE: /opt/ros/foxy/bin/python3
+[0.765s] -- Configuring done (0.7s)
+[0.777s] -- Generating done (0.0s)
+[0.779s] -- Build files have been written to: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf
+[0.782s] Invoked command in '/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher_gui:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf -DCMAKE_INSTALL_PREFIX=/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf
+[0.784s] Invoking command in '/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher_gui:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf -- -j20 -l20
+[0.796s] Invoked command in '/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher_gui:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf -- -j20 -l20
+[0.813s] Invoking command in '/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher_gui:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf
+[0.816s] -- Install configuration: ""
+[0.816s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/launch
+[0.816s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/launch/display.launch.py
+[0.817s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/launch/display.launch0331.py
+[0.817s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/launch/display.launch_old.py
+[0.817s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf
+[0.818s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/build
+[0.818s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/build/.built_by
+[0.819s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/build/COLCON_IGNORE
+[0.819s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install
+[0.819s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/.colcon_install_layout
+[0.820s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/COLCON_IGNORE
+[0.820s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/local_setup.bash
+[0.820s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/local_setup.ps1
+[0.821s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/local_setup.sh
+[0.821s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/local_setup.zsh
+[0.821s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/setup.bash
+[0.822s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/setup.ps1
+[0.822s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/setup.sh
+[0.822s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/setup.zsh
+[0.823s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/_local_setup_util_ps1.py
+[0.823s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/install/_local_setup_util_sh.py
+[0.823s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/log
+[0.824s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/log/build_2025-03-30_14-46-56
+[0.824s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/log/build_2025-03-30_14-46-56/events.log
+[0.825s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/log/build_2025-03-30_14-46-56/logger_all.log
+[0.825s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/log/COLCON_IGNORE
+[0.825s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/log/latest
+[0.825s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/log/latest_build
+[0.826s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/urdf/x1_25dof.urdf
+[0.826s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/rviz
+[0.826s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/rviz/display.rviz
+[0.827s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/rviz/view_robot.rviz
+[0.827s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes
+[0.827s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/arm_r_wrist_a_ball.STL
+[0.828s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/arm_r_wrist_a_ball_simple.STL
+[0.828s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/arm_r_wrist_a_loop.STL
+[0.828s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/arm_r_wrist_b_ball.STL
+[0.829s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/arm_r_wrist_b_loop.STL
+[0.829s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/arm_r_wrist_motor_a_link.STL
+[0.829s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/arm_r_wrist_motor_b_link.STL
+[0.830s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/base_link_simple.STL
+[0.830s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_ankle_pitch.STL
+[0.830s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_ankle_roll.STL
+[0.831s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_elbow_pitch.STL
+[0.831s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_elbow_yaw.STL
+[0.831s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_hip_pitch.STL
+[0.831s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_hip_roll.STL
+[0.832s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_hip_yaw.STL
+[0.832s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_shoulder_pitch.STL
+[0.832s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_shoulder_roll.STL
+[0.833s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_shoulder_yaw.STL
+[0.833s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_wrist_pitch.STL
+[0.833s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_wrist_roll.STL
+[0.833s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_l_toe_a_ball.STL
+[0.834s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_l_toe_a_link.STL
+[0.834s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_l_toe_a_loop.STL
+[0.834s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_l_toe_b_ball.STL
+[0.835s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_l_toe_b_link.STL
+[0.835s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_l_toe_b_loop.STL
+[0.835s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_r_toe_a_ball.STL
+[0.836s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_r_toe_a_link.STL
+[0.836s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_r_toe_a_loop.STL
+[0.836s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_r_toe_b_ball.STL
+[0.836s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_r_toe_b_loop.STL
+[0.837s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/lumber_pitch.STL
+[0.837s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/lumber_roll.STL
+[0.837s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/lumber_yaw.STL
+[0.838s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_ankle_pitch.STL
+[0.838s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_ankle_roll.STL
+[0.838s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_elbow_pitch.STL
+[0.839s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_elbow_yaw.STL
+[0.839s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hand_down_1_link.STL
+[0.839s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hand_down_2_link.STL
+[0.839s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hand_down_3_link.STL
+[0.840s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hand_down_loop1_link.STL
+[0.840s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hand_down_loop2_link.STL
+[0.840s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hand_up_1_link.STL
+[0.841s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hand_up_2_link.STL
+[0.841s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hand_up_loop1_link.STL
+[0.841s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hand_up_loop2_link.STL
+[0.841s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hip_pitch.STL
+[0.842s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hip_roll.STL
+[0.842s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hip_yaw.STL
+[0.842s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_knee_pitch.STL
+[0.843s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_shoulder_pitch.STL
+[0.843s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_shoulder_roll.STL
+[0.843s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_shoulder_yaw.STL
+[0.843s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_wrist_pitch.STL
+[0.844s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_wrist_roll.STL
+[0.844s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/waist_motor_a_ball.STL
+[0.844s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/waist_motor_a_link.STL
+[0.845s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/waist_motor_a_loop.STL
+[0.845s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/waist_motor_b_ball.STL
+[0.845s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/waist_motor_b_link.STL
+[0.846s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/waist_motor_b_loop.STL
+[0.846s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/left_knee_pitch.STL
+[0.846s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/leg_r_toe_b_link.STL
+[0.846s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/meshes/right_hand_up_3_link.STL
+[0.847s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/ament_index/resource_index/package_run_dependencies/x1_urdf
+[0.849s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/ament_index/resource_index/parent_prefix_path/x1_urdf
+[0.850s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/environment/ament_prefix_path.sh
+[0.851s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/environment/ament_prefix_path.dsv
+[0.852s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/environment/path.sh
+[0.852s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/environment/path.dsv
+[0.855s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/local_setup.bash
+[0.856s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/local_setup.sh
+[0.857s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/local_setup.zsh
+[0.859s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/local_setup.dsv
+[0.860s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/package.dsv
+[0.861s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/ament_index/resource_index/packages/x1_urdf
+[0.863s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/cmake/x1_urdfConfig.cmake
+[0.864s] -- Installing: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/cmake/x1_urdfConfig-version.cmake
+[0.865s] -- Up-to-date: /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf/share/x1_urdf/package.xml
+[0.867s] Invoked command in '/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher_gui:/home/kvkcon/__Project/__Project/_weight/ROS2/joint_state_publisher/install/joint_state_publisher:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf
