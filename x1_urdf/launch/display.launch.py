@@ -18,6 +18,7 @@ from launch.conditions import IfCondition
 from launch.substitutions import Command, FindExecutable, PathJoinSubstitution, LaunchConfiguration
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
+from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
@@ -31,8 +32,16 @@ def generate_launch_description():
         with this launch file.",
         )
     )
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "urdf_path",
+            default_value="robot/x1_29dof/urdf/x1_ros.urdf",
+            description="Path to the URDF file relative to the package share directory.",
+        )
+    )
     # Initialize Arguments
     gui = LaunchConfiguration("gui")
+    urdf_path = LaunchConfiguration("urdf_path")
 
     # Get URDF via xacro
     # robot_description_content = Command(
@@ -50,11 +59,27 @@ def generate_launch_description():
     # )
     import launch_ros.descriptions
     import os
-    robot_description_content = launch_ros.descriptions.ParameterValue(Command(['xacro ',os.path.join(FindPackageShare(package="x1_urdf").find("x1_urdf") ,'urdf/x1_25dof.urdf')]), value_type=str)
+    # robot_description_content = launch_ros.descriptions.ParameterValue(Command(['xacro ',os.path.join(FindPackageShare(package="x1_urdf").find("x1_urdf") ,'robot/x1_29dof/urdf/x1_ros.urdf')]), value_type=str)
+    robot_description_content = Command(
+        [
+            PathJoinSubstitution([FindExecutable(name="xacro")]),
+            " ",
+            PathJoinSubstitution(
+                [
+                    FindPackageShare("x1_urdf"),
+                    urdf_path,
+                ]
+            ),
+        ]
+    )
+    
 
     # robot_description_content = launch_ros.descriptions.ParameterValue(Command(['xacro ',os.path.join(FindPackageShare(package="pd_robot_description").find("pd_robot_description") ,'asap_g1/urdf/g1_29dof_anneal_23dof.urdf')]), value_type=str)
 
-    robot_description = {"robot_description": robot_description_content}
+    robot_description = {
+        "robot_description": ParameterValue(robot_description_content, value_type=str)
+    }
+    # robot_description = {"robot_description": robot_description_content}
 
     rviz_config_file = PathJoinSubstitution(
         [FindPackageShare("x1_urdf"), "rviz", "view_robot.rviz"]
