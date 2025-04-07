@@ -1,2 +1,0 @@
-Invoking command in '/home/lx/projects/x1_urdf/build/x1_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /opt/cmake/cmake-3.31.6-linux-x86_64/bin/cmake --build /home/lx/projects/x1_urdf/build/x1_urdf -- -j16 -l16
-Invoked command in '/home/lx/projects/x1_urdf/build/x1_urdf' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /opt/cmake/cmake-3.31.6-linux-x86_64/bin/cmake --build /home/lx/projects/x1_urdf/build/x1_urdf -- -j16 -l16

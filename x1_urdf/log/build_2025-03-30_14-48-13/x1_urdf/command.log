@@ -1,2 +1,0 @@
-Invoking command in '/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf -DCMAKE_INSTALL_PREFIX=/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf
-Invoked command in '/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf -DCMAKE_INSTALL_PREFIX=/media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/install/x1_urdf

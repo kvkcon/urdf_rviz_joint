@@ -1,3 +1,0 @@
-[0mCMake Error: The current CMakeCache.txt directory /home/lx/projects/x1_urdf/build/x1_urdf/CMakeCache.txt is different than the directory /media/handsfree/新加卷/__Project/_weight/ROS2/x1_urdf/build/x1_urdf where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-make: /usr/local/bin/cmake: 没有那个文件或目录
-make: *** [Makefile:226：cmake_check_build_system] 错误 127
