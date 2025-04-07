@@ -44,4 +44,5 @@ roboverse/data/motions
 _deps/
 x1_urdf/build/
 x1_urdf/install/
+x1_urdf/log/
 cmake-build*/
