@@ -22,12 +22,12 @@ ros2 launch x1_urdf display.launch.py
 ```
 
 
-## tool
+## Tool
 ```bash
 check_urdf robot/x1_29dof/urdf/x1_ros.urdf
 
 urdf_to_graphviz x1_ros.urdf #| dot -Tpng -o structure.png
 ```
 
-## another Vis Method
+## Another Vis Method
 [urdf-loaders](https://gkjohnson.github.io/urdf-loaders/javascript/example/bundle/)
