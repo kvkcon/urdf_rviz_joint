@@ -1,9 +1,0 @@
-/home/lx/projects/x1_urdf/build/x1_urdf/CMakeFiles/uninstall.dir
-/home/lx/projects/x1_urdf/build/x1_urdf/CMakeFiles/x1_urdf_uninstall.dir
-/home/lx/projects/x1_urdf/build/x1_urdf/CMakeFiles/test.dir
-/home/lx/projects/x1_urdf/build/x1_urdf/CMakeFiles/edit_cache.dir
-/home/lx/projects/x1_urdf/build/x1_urdf/CMakeFiles/rebuild_cache.dir
-/home/lx/projects/x1_urdf/build/x1_urdf/CMakeFiles/list_install_components.dir
-/home/lx/projects/x1_urdf/build/x1_urdf/CMakeFiles/install.dir
-/home/lx/projects/x1_urdf/build/x1_urdf/CMakeFiles/install/local.dir
-/home/lx/projects/x1_urdf/build/x1_urdf/CMakeFiles/install/strip.dir
